@@ -1,0 +1,44 @@
+*{
+box-sizing: border-box;
+}
+
+h1{
+text-align: center;
+margin-top: 5%;
+}
+
+p {
+  background-color: gray;
+float: left;
+/* margin-left: 5px; */
+    margin-right: 5px;
+border: 2px solid black;
+  width: 32%;
+}
+/*risoluzione larghezza massima 993 e larghezza minima 770*/
+@media (max-width: 992px)   and (min-width:768px){
+
+p.block_chicken{
+  background-color: gray;
+  /* width: 300px; */
+
+  padding: 10px;
+}
+
+p.block_beef{
+background-color: gray;
+/* width: 300px;*/
+
+padding: 10px;
+}
+
+p.block_sushi{
+background-color: gray;
+width: 100%;
+padding: 10px;
+}
+}
+@media (max-width:767px) {
+  
+
+}
